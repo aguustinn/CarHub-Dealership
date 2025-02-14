@@ -1,16 +1,19 @@
-# dealership_app
+🚗 CarHub Dealership 
 
-A new Flutter project.
+📱 Funcionalidades
+Listagem de veículos com imagens, preços e descrições detalhadas.
+Filtros avançados (marca, modelo, ano, preço, etc.).
+Detalhes completos do veículo, incluindo especificações técnicas.
+Formulário de contato para interessados em agendar test drive ou obter mais informações.
+Painel administrativo para gerenciar o inventário de veículos.
 
-## Getting Started
+🚀 Tecnologias Utilizadas
+Flutter: Framework principal para o desenvolvimento do aplicativo.
+Dart: Linguagem de programação utilizada no Flutter.
 
-This project is a starting point for a Flutter application.
+🔧 Como Executar o Projeto
+Clone o repositório:
 
-A few resources to get you started if this is your first Flutter project:
+git clone https://github.com/seuusuario/CarHub-Dealership.git
+cd CarHub-Dealership
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
