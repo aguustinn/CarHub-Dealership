@@ -49,7 +49,7 @@ const dummyCategories = [
   ),
   Category(
     id: 'c10',
-    title: 'Test Drive',
+    title: 'Test-Drive',
     color: Colors.teal,
   ),
 ];
