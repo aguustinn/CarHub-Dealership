@@ -35,7 +35,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: const Center(
         child: Text('Conectando você ao carro dos sonhos!'),
-      ),
+      )
     );
   }
 }
