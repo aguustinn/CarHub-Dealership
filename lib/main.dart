@@ -13,7 +13,16 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Vamos Comprar?',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        useMaterial3: true,
+        fontFamily: 'Raleway',
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: Colors.blue,
+        ).copyWith(
+          surface: Color.fromRGBO(255, 254, 229, 1),
+        ),
+        textTheme: ThemeData.light().textTheme.copyWith(
+              titleLarge: TextStyle(fontSize: 20, fontFamily: 'RobotoCondesed'),
+            ),
       ),
       home: CategoriesScreen(),
     );
